@@ -1,18 +1,40 @@
 <p align="center">
     <a href="https://www.swiftconcurrencycourse.com?utm_source=github&utm_medium=agent-skill&utm_campaign=swift-concurrency-skill">
-        <img width="900px" src="assets/github_readme_banner.jpg">
+        <img width="900px" src="assets/github_readme_banner.jpg" alt="Swift Concurrency Agent Skill banner">
     </a>
 </p>
 
 # Swift Concurrency Agent Skill
 
-An expert-level Agent Skill that transforms Claude into a Swift Concurrency specialist, helping you write safe, performant concurrent code and migrate to Swift 6 with confidence.
+Expert guidance for any AI coding tool that supports the [Agent Skills open format](https://agentskills.io/home) — safe concurrency, performance, and Swift 6+ migration.
 
-This skill is based on the comprehensive [Swift Concurrency Course](https://www.swiftconcurrencycourse.com?utm_source=github&utm_medium=agent-skill&utm_campaign=swift-concurrency-skill), distilling years of real-world experience into actionable guidance for AI assistants.
+Based on the comprehensive [Swift Concurrency Course](https://www.swiftconcurrencycourse.com?utm_source=github&utm_medium=agent-skill&utm_campaign=swift-concurrency-skill), distilled into actionable, concise references for agents.
+
+## Who this is for
+- Teams migrating to Swift 6 / strict concurrency who need safe defaults and quick triage.
+- Developers debugging data races, isolation errors, or flaky async tests.
+- Anyone wanting performance-minded concurrency patterns (actors, tasks, Sendable, async streams).
+
+## Where to Save Skills
+
+Follow your tool’s official documentation, here are a few popular ones:
+- **Codex:** [Where to save skills](https://developers.openai.com/codex/skills/#where-to-save-skills)
+- **Claude:** [Using Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview#using-skills)
+- **Cursor:** [Enabling Skills](https://cursor.com/docs/context/skills#enabling-skills)
+
+## How to Use This Skill
+
+1) **Clone** this repository.  
+2) **Install or symlink** the `swift-concurrency/` folder following your tool’s official skills installation docs (see links above).  
+3) **Use your AI tool** as usual and ask it to use the “swift-concurrency” skill for Swift Concurrency tasks.
+
+**How to verify**: 
+
+Your agent should reference the triage/playbook in `swift-concurrency/SKILL.md` and jump into the relevant reference file for your error or task.
 
 ## What This Skill Offers
 
-This skill provides Claude with comprehensive knowledge of Swift Concurrency best practices, enabling it to:
+This skill gives your AI coding tool comprehensive Swift Concurrency guidance. It can:
 
 ### Guide Your Concurrency Decisions
 - Choose the right tool for the job (async/await, actors, tasks, task groups)
@@ -27,7 +49,6 @@ This skill provides Claude with comprehensive knowledge of Swift Concurrency bes
 - Manage memory safely in concurrent contexts
 
 ### Optimize Performance
-- Identify and fix concurrency bottlenecks using Xcode Instruments
 - Choose between serialized, asynchronous, and parallel execution
 - Reduce actor contention and unnecessary suspension points
 - Understand the tradeoffs of parallelism
@@ -65,22 +86,7 @@ This skill provides Claude with comprehensive knowledge of Swift Concurrency bes
 - Approachable Concurrency build settings
 - Concurrency-safe notifications (iOS 26+)
 
-**Practical & Concise**: Assumes Claude is already smart. Focuses on what developers need to know, not what they already understand. Includes code examples for every pattern.
-
-## Following the Agent Skills Open Format
-
-This skill follows the open format for giving agents new capabilities and expertise as described at [agentskills.io](https://agentskills.io/home).
-
-> [!NOTE]
-> Agent Skills are folders of instructions, scripts, and resources that agents can discover and use to do things more accurately and efficiently.
-
-Agent Skills are supported by leading AI development tools, including:
-
-- **Cursor** (recommended)
-- Claude Code
-- Codex
-
-[Check out the full list of adoption](https://agentskills.io/home#adoption).
+**Practical & Concise**: Assumes your AI agent is already smart. Focuses on what developers need to know, not what they already understand. Includes code examples for every pattern.
 
 ## Skill Structure
 
@@ -101,26 +107,13 @@ swift-concurrency/
     └── migration.md            # Step-by-step Swift 6 migration guide
 ```
 
-## How to Use
-
-1. **Clone or download** this repository
-2. **Place the `swift-concurrency` folder** in your project's `.agent-skills/` directory
-3. **Start coding** - Claude will automatically discover and use the skill
-
-Your AI assistant will now have expert-level knowledge of Swift Concurrency and can help you:
-- Write new concurrent code from scratch
-- Debug concurrency issues and data races
-- Migrate existing code to Swift 6
-- Optimize performance bottlenecks
-- Make informed decisions about concurrency patterns
-
 ## Contributing
 
-Found an issue or have a suggestion? Feel free to open a PR or issue. This skill is maintained to reflect the latest Swift Concurrency best practices and will be updated as the language evolves.
+Found an issue or have a suggestion? Feel free to open a PR. This skill is maintained to reflect the latest Swift Concurrency best practices and will be updated as the language evolves.
 
 ## About the Author
 
-Created by [Antoine van der Lee](https://www.avanderlee.com), a Swift Concurrency expert and creator of the [Swift Concurrency Course](https://www.swiftconcurrencycourse.com?utm_source=github&utm_medium=agent-skill&utm_campaign=swift-concurrency-skill). With years of experience migrating large production codebases to Swift 6, this skill distills practical knowledge into actionable guidance for AI assistants.
+Created by [Antoine van der Lee](https://www.avanderlee.com), a Swift Concurrency expert and creator of the [Swift Concurrency Course](https://www.swiftconcurrencycourse.com?utm_source=github&utm_medium=agent-skill&utm_campaign=swift-concurrency-skill). With years of experience in Swift & Swift Concurrency, this skill distills practical knowledge into actionable guidance for AI assistants. He [published tens of articles on Swift Concurrency](https://www.avanderlee.com/category/concurrency/) on his blog called SwiftLee.
 
 ## License
 
