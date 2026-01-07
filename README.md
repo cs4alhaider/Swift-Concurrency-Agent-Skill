@@ -1,3 +1,9 @@
+<p align="center">
+    <a href="https://www.swiftconcurrencycourse.com?utm_source=github&utm_medium=agent-skill&utm_campaign=swift-concurrency-skill">
+        <img width="900px" src="assets/github_readme_banner.jpg">
+    </a>
+</p>
+
 # Swift Concurrency Agent Skill
 
 An expert-level Agent Skill that transforms Claude into a Swift Concurrency specialist, helping you write safe, performant concurrent code and migrate to Swift 6 with confidence.
