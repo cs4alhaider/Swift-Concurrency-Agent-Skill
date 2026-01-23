@@ -22,7 +22,7 @@ Contributors who aren't familiar with the Agent Skills format may inadvertently:
 
 ## ✨ Recommended Contribution Workflow
 
-### Option 1: Use the Skill-Creator Skill (Highly Recommended)
+### Option 1: Use the skill-creator skill (Highly Recommended)
 
 The best way to contribute is to use Claude with the [skill-creator skill](https://github.com/anthropics/skills/tree/main/skills/skill-creator). This ensures your contribution follows the Agent Skills format correctly.
 
