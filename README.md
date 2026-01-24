@@ -163,6 +163,9 @@ swift-concurrency/
     └── linting.md              # Linting rules for strict concurrency
 ```
 
+## Other skills
+- [SwiftUI Expert](https://github.com/AvdLee/SwiftUI-Agent-Skill)
+
 ## Contributing
 
 Contributions are welcome! This repository follows the [Agent Skills open format](https://agentskills.io/home), which has specific structural requirements.
